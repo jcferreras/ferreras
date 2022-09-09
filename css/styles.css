@@ -1,0 +1,130 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 0 10px 0;
+  z-index: 1;
+}
+
+.heading-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-link:link {
+  font-size: 18px;
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua,
+    Georgia, serif;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:visited {
+  font-size: 18px;
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua,
+    Georgia, serif;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  font-size: 18px;
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua,
+    Georgia, serif;
+  text-decoration: overline;
+  color: gray;
+}
+
+.nav-link:active {
+  font-size: 18px;
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua,
+    Georgia, serif;
+  text-decoration: none;
+}
+
+.nav-link {
+  margin-right: 30px;
+}
+
+.search-area {
+  position: static;
+  background-image: url(../images/skyline.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 900px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  column-gap: 10px;
+  flex: 1 1 1;
+}
+
+.search-dropdown {
+  height: 30px;
+  width: 250px;
+  margin-bottom: 150px;
+}
+
+.search-btn {
+  height: 30px;
+  width: 250px;
+  margin-bottom: 150px;
+}
+
+.cities-header {
+  text-align: center;
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua,
+    Georgia, serif;
+  background-color: #cfd2cf;
+  color: black;
+  width: 95%;
+  margin: 20 auto auto auto;
+  font-size: 30px;
+  font-weight: normal;
+  border-radius: 10px;
+}
+
+.cities-area {
+  /* margin-top: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  column-gap: 30px;
+}
+
+.city-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.city-header {
+  font-size: 22px;
+  font-family: serif;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.city-img {
+  height: 250px;
+  width: 420px;
+  box-shadow: 2px 2px 5px 2px black;
+}
