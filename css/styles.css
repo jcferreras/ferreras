@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: white;
   margin: 0;
@@ -58,32 +62,103 @@ header {
 .nav-link {
   margin-right: 30px;
 }
+@media only screen and (min-width: 1001px) {
+  .search-area {
+    position: static;
+    background-image: url(../images/skyline.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 900px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 10px;
+    flex: 1 1 1;
+  }
 
-.search-area {
-  position: static;
-  background-image: url(../images/skyline.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  height: 900px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  column-gap: 10px;
-  flex: 1 1 1;
+  .search-dropdown {
+    height: 50px;
+    width: 250px;
+    margin-bottom: 150px;
+    color: black;
+    background-color: #fac213;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+
+  .search-btn {
+    height: 50px;
+    width: 250px;
+    margin-bottom: 150px;
+    color: black;
+    background-color: #fac213;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+
+  .search-btn:hover {
+    height: 50px;
+    width: 250px;
+    margin-bottom: 150px;
+    color: white;
+    background-color: #000000;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
 }
 
-.search-dropdown {
-  height: 30px;
-  width: 250px;
-  margin-bottom: 150px;
-}
-
-.search-btn {
-  height: 30px;
-  width: 250px;
-  margin-bottom: 150px;
+@media only screen and (max-width: 1000px) {
+  .search-area {
+    position: static;
+    background-image: url(../images/skyline.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+    row-gap: 40px;
+    /* flex: 1 1 1; */
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .search-dropdown {
+    height: 50px;
+    width: 400px;
+    color: black;
+    background-color: #fac213;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .search-btn {
+    height: 50px;
+    width: 400px;
+    color: black;
+    background-color: #fac213;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .search-btn:hover {
+    height: 50px;
+    width: 400px;
+    color: white;
+    background-color: #000000;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
 }
 
 .cities-header {
@@ -115,16 +190,83 @@ header {
   margin-left: 30px;
 }
 
-.city-header {
+.city-header:link {
   font-size: 22px;
   font-family: serif;
   text-align: center;
   text-decoration: none;
   margin-bottom: 10px;
+  color: black;
+}
+
+.city-header:visited {
+  font-size: 22px;
+  font-family: serif;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.city-header:hover {
+  font-size: 22px;
+  font-family: serif;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: purple;
 }
 
 .city-img {
   height: 250px;
   width: 420px;
   box-shadow: 2px 2px 5px 2px black;
+}
+
+footer {
+  display: flex;
+  height: 180px;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #f9f5eb;
+}
+
+.footer-logo {
+  align-self: center;
+  width: 100%;
+}
+
+.footer-img {
+  height: 100px;
+  width: 100px;
+}
+
+.footer-ul {
+  list-style: none;
+}
+
+.footer-link:link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link:hover {
+  color: black;
+  text-decoration: overline underline;
+}
+
+.footer-link:active {
+  text-decoration: none;
+  color: black;
+}
+
+.contactus-icon {
+  height: 25px;
+  width: 25px;
 }
