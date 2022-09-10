@@ -231,12 +231,10 @@ body {
 }
 
 .cities-area {
-  /* margin-top: 20px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
-  gap: 10px;
 }
 
 .city-container {
@@ -273,9 +271,19 @@ body {
 }
 
 .city-img {
-  height: 250px;
-  width: 420px;
+  height: 255px;
+  width: 430px;
   box-shadow: 2px 2px 5px 2px black;
+  margin-right: 15px;
+}
+
+.city-img:hover {
+  height: 255px;
+  width: 430px;
+  box-shadow: 2px 2px 5px 2px black;
+  margin-right: 15px;
+  opacity: 0.3;
+  transition: 0.3s ease-in-out;
 }
 
 footer {
