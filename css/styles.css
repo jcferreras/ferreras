@@ -62,7 +62,7 @@ header {
 .nav-link {
   margin-right: 30px;
 }
-@media only screen and (min-width: 845px) {
+@media only screen and (min-width: 1285px) {
   .search-area {
     position: static;
     background-image: url(../images/skyline.webp);
@@ -113,7 +113,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 844px) {
+@media only screen and (max-width: 1284px) {
   .search-area {
     position: static;
     background-image: url(../images/skyline.webp);
