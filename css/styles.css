@@ -74,7 +74,6 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    column-gap: 10px;
     flex: 1 1 1;
   }
 
@@ -180,14 +179,13 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
-  column-gap: 30px;
+  gap: 10px;
 }
 
 .city-container {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
-  margin-left: 30px;
 }
 
 .city-header:link {
