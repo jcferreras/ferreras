@@ -62,7 +62,7 @@ header {
 .nav-link {
   margin-right: 30px;
 }
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 845px) {
   .search-area {
     position: static;
     background-image: url(../images/skyline.webp);
@@ -75,6 +75,7 @@ header {
     align-items: flex-end;
     justify-content: center;
     flex: 1 1 1;
+    column-gap: 40px;
   }
 
   .search-dropdown {
@@ -112,7 +113,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 844px) {
   .search-area {
     position: static;
     background-image: url(../images/skyline.webp);
@@ -131,30 +132,30 @@ header {
     flex-wrap: wrap;
   }
   .search-dropdown {
-    height: 50px;
-    width: 400px;
+    height: 80px;
+    width: 500px;
     color: black;
     background-color: #fac213;
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
     border: 2px solid white;
     border-radius: 5px;
   }
   .search-btn {
-    height: 50px;
-    width: 400px;
+    height: 80px;
+    width: 500px;
     color: black;
     background-color: #fac213;
-    font-size: 15px;
+    font-size: 25px;
     border: 2px solid white;
     border-radius: 5px;
   }
   .search-btn:hover {
-    height: 50px;
-    width: 400px;
+    height: 80px;
+    width: 500px;
     color: white;
     background-color: #000000;
-    font-size: 15px;
+    font-size: 25px;
     border: 2px solid white;
     border-radius: 5px;
   }
