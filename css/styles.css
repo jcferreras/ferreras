@@ -281,7 +281,7 @@ body {
   height: 255px;
   width: 430px;
   box-shadow: 2px 2px 5px 2px black;
-  margin-right: 15px;
+  margin-right: 20px;
   opacity: 0.3;
   transition: 0.3s ease-in-out;
 }
